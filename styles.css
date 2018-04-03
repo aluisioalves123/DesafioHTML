@@ -1,12 +1,13 @@
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  color: fuchsia;
+#logo_traineegti {
+   position: absolute;
+  
+ 
 }
 
-button. {
-  
+header {
+  background_color: #0000;
 }
