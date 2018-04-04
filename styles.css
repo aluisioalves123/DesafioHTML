@@ -125,8 +125,8 @@ section#trainee p {
   font-size: 10pt;
 }
 
-section#trainee {
-    display: block;
+#trainee {
+  overflow: auto;
 }
 
 section#ruby h2 {
@@ -142,6 +142,7 @@ section#ruby h2 {
 
 #texto {
 text-align: justify;
+  padding-bottom: 0px;
 }
 
 /*
