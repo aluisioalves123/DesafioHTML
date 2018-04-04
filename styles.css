@@ -6,7 +6,7 @@ Formatações gerais
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background-color: #E6E6E6;
+  background-color: #ffff;
   
 }
 
@@ -74,6 +74,7 @@ header {
   background-size: cover;
   background-color: rgba(10,10,10,.5);
   background-blend-mode: color-burn;
+  margin-bottom: 50px;
 }
 
 #header-img {
@@ -117,7 +118,6 @@ section h2 {
   color: #F16529;
   font-size: 35px;
   letter-spacing: 10px;
-  margin-top: 80px;
 }
 
 section#trainee p {
@@ -134,15 +134,16 @@ section#ruby h2 {
 }
 
 #computador {
-  position: relative;
+  
   float: left;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-right: 30px;
 }
 
 #texto {
 text-align: justify;
   padding-bottom: 0px;
+  margin-right: 30px;
 }
 
 /*
