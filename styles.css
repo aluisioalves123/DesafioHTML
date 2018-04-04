@@ -126,7 +126,7 @@ section#trainee p {
 }
 
 section#trainee {
-    
+    display: block;
 }
 
 section#ruby h2 {
@@ -148,7 +148,7 @@ text-align: justify;
 =========================================
 Outras Formatações
 */
-img#ai {
+img#a {
   -webkit-animation:spin 1s linear infinite;
   -moz-animation:spin 1s linear infinite;
   animation:spin 1s linear infinite;
