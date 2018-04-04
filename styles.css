@@ -29,19 +29,18 @@ Formatações do menu de navegação
 nav {
   position: fixed;
   top: 0px;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.7);
   width: 100%;
 }
 
 nav img {
-  
+  padding: 50px;
 }
 
 ul#navegacao {
   list-style: none;
   float: right;
-  margin-right: 50px;
-
+  padding: 40px;
 }
 
 .menu a {
