@@ -35,12 +35,13 @@ nav {
 }
 
 nav img {
-  img-align: left;
+  
 }
 
 ul#navegacao {
   list-style: none;
-  
+  float: right;
+
 }
 
 .menu a {
@@ -53,7 +54,8 @@ ul#navegacao {
 }
 
 nav ul li { 
-  display: inline; 
+  display: inline;
+  padding-right: 20px;
 }
 
 /* 
@@ -92,7 +94,10 @@ Formatação dos tópicos
 */
 article {
   background: white;
-  text-align: center;
+}
+
+article p {
+  float: right; 
 }
 
 section {
