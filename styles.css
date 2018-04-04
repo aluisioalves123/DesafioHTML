@@ -20,6 +20,11 @@ a.ver-mais {
   padding: 5px 50px 5px;
   background: black;
   color: white;
+  margin-left: 40%;
+}
+
+.resto_dos_titulos {
+ text-align: center; 
 }
 
 
