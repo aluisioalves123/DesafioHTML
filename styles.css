@@ -13,10 +13,13 @@ body {
 }
 
 header {
-  background_color: skyblue;
+  background-color: black;
+  height: 100px;
+  
 }
 
-#teste {
-  background: black;
-  opacity: 0.5;
+#logo {
+ position: absolute;
+margin-top: 40px;
+  margin-left: 30px;
 }
