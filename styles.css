@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #0000;
 }
 
 #logo_traineegti {
@@ -12,3 +13,7 @@ header {
   background_color: #0000;
 }
 
+#topo {
+  height: 100px;
+  background: #0000;
+}
