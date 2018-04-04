@@ -29,7 +29,7 @@ Formatações do menu de navegação
 nav {
   position: fixed;
   top: 0px;
-  background: rgba(0,0,0,.7);
+  background: rgba(0,0,0,.6);
   width: 100%;
 }
 
@@ -71,9 +71,8 @@ header {
   text-align: center;
   height: 100vh;
   background-size: cover;
-  background-color: rgba(0,0,0,.5);
-  background-blend-mode: hard-light;
-  
+  background-color: rgba(10,10,10,.5);
+  background-blend-mode: color-burn;
 }
 
 #header-img {
@@ -86,7 +85,7 @@ header h1 {
   color: white;
   font-size: 52px;
   text-shadow: 2px 2px 2px black;
-  padding-top: 250px;
+  padding-top: 350px;
   margin-top: 0;
 }
 
@@ -116,6 +115,8 @@ section {
 section h2 {
   color: #F16529;
   font-size: 35px;
+  letter-spacing: 10px;
+  text-align: center;
 }
 
 section#trainee p {
@@ -126,6 +127,10 @@ section#trainee p {
 
 section#ruby h2 {
   color: #A72D3A;
+}
+
+#computador {
+ align: right; 
 }
 
 /*
