@@ -12,6 +12,8 @@ Site feito pro curso do Aluísio
 
 - recomendo usar tabelas para cada 4 negocios que tem o botão de estudar agora
 
+- gerador de texto aleatório: *https://br.lipsum.com/*
+
 ## css
 - Não esquece que ID é único, por isso se chama ID, para atribuir CSS a mais de um elemento use classes. Em CSS classes são chamadas com o '.classe {}' e IDs com '#id {}'
 
