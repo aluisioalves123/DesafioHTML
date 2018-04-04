@@ -159,11 +159,10 @@ text-align: justify;
 FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
 
 .ferramentas {
-  margin: auto;
   border: 1px solid gray;
   width: 20%;
   float: left;
-
+  margin: auto;
 }
 
 .imagem {
@@ -176,9 +175,8 @@ FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
   padding: 0;
 }
 
-.texto_generico {
+.data-postagem {
   text-align: center;
-  
   margin-bottom: 10px;
   padding: 0;
 }
