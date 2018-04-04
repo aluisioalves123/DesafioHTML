@@ -66,8 +66,7 @@ Formatações do cabeçalho
 header {
   background-image: url("https://cdn.glitch.com/ae3dc6e7-a56a-4b8d-a6c2-6380127472f4%2Fbanner.jpg?1522797817548");
   text-align: center;
-  padding: 200px;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
 }
 
@@ -75,13 +74,13 @@ header {
   max-width:100%;
   height: auto;
   padding: 5px;
-  filter
 }
 
 header h1 {
   color: white;
   font-size: 52px;
   text-shadow: 2px 2px 2px black;
+  padding: 250px;
 }
 
 header a {
