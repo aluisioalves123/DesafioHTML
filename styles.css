@@ -192,6 +192,11 @@ color: white;
   
   
 }
+
+.ferramentas img {
+ width: 50%; 
+  padding-right: 10px;
+}
 /*
 =========================================
 Outras Formatações
