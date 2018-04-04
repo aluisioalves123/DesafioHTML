@@ -41,11 +41,12 @@ nav img {
 ul#navegacao {
   list-style: none;
   float: right;
+  margin-right: 50px;
 
 }
 
 .menu a {
-  font-size: 18pt;
+  font-size: 18px;
   color: grey;
 }
 
@@ -67,7 +68,7 @@ header {
   text-align: center;
   padding: 200px;
   height: 100%;
-
+  background-size: cover;
 }
 
 #header-img {
@@ -78,7 +79,7 @@ header {
 
 header h1 {
   color: white;
-  font-size: 52pt;
+  font-size: 52px;
   text-shadow: 2px 2px 2px black;
 }
 
