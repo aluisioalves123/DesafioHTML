@@ -13,10 +13,27 @@ body {
 
 }
 
-img.background {
+img.bg {
+  width: 100px;
 }
 
 #logo {
  position: absolute;
+
+}
+
+nav {
+
+}
+
+header {
+
+}
+
+section {
+
+}
+
+footer {
 
 }
