@@ -158,24 +158,38 @@ text-align: justify;
 ========================================================
 FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
 
+.ferramentas {
+  border: 1px solid gray;
+  margin:0;
+  width: 20%;
+  float: left;
+
+}
+
 .imagem {
   background-color: #D2563F;
-  width: 20%;
+  
   text-align: center;
   height: 220px;
   color: white;
   margin-bottom: 15px;
+  padding: 0;
 }
 
 .texto_generico {
   text-align: center;
-  width: 20%;
+  
+  margin-bottom: 10px;
+  padding: 0;
 }
 
 .estudar_agora {
  text-align: center;
- width: 20%;
- background-color: 
+color: white;
+ background-color: #FB7C00;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
   
 }
 /*
