@@ -35,7 +35,7 @@ nav {
 }
 
 nav img {
-  
+  img-align: left;
 }
 
 ul#navegacao {
@@ -44,7 +44,7 @@ ul#navegacao {
 }
 
 .menu a {
-  font-size: 14pt;
+  font-size: 18pt;
   color: grey;
 }
 
@@ -76,7 +76,7 @@ header {
 
 header h1 {
   color: white;
-  font-size: 30pt;
+  font-size: 52pt;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -101,6 +101,7 @@ section {
 
 section h2 {
   color: #F16529;
+  font-size: 35px;
 }
 
 section#trainee p {
