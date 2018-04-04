@@ -14,9 +14,12 @@ a {
   text-decoration: none;
 }
 
-img.bg {
-  max-width:100%;
-  height: auto;
+a.ver-mais {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 50px 5px;
+  background: black;
+  color: white;
 }
 
 /* 
@@ -60,6 +63,8 @@ header {
 }
 
 #header-img {
+  max-width:100%;
+  height: auto;
   padding: 5px;
 }
 
