@@ -1,20 +1,12 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background_color: skyblue;
   margin: 0;
 }
 
-#background {
-  background-image: url("https://cdn.glitch.com/ae3dc6e7-a56a-4b8d-a6c2-6380127472f4%2Fbanner.jpg?1522797817548");
-  position: relative;
-  top: 0px;
-  left: 0;
-
-}
-
 img.bg {
-  width: 100px;
+  max-width:100%;
+  height: auto;
 }
 
 #logo {
@@ -23,11 +15,13 @@ img.bg {
 }
 
 nav {
-
+  position: fixed;
+  top: 0;
+  background: rgba(0,0,0,.5);
 }
 
 header {
-
+  background-image: url("https://cdn.glitch.com/ae3dc6e7-a56a-4b8d-a6c2-6380127472f4%2Fbanner.jpg?1522797817548"); 
 }
 
 section {
@@ -36,4 +30,11 @@ section {
 
 footer {
 
+}
+
+
+
+
+#background {
+  
 }
