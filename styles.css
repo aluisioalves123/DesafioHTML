@@ -31,6 +31,7 @@ nav {
   top: 0px;
   background: rgba(0,0,0,.6);
   width: 100%;
+  z-index: 10;
 }
 
 nav img {
@@ -136,7 +137,8 @@ section#ruby h2 {
 }
 
 #texto {
- padding-left: 20px; 
+margin: 500px;
+text-align: justify;
 }
 
 /*
