@@ -28,9 +28,8 @@ Formatações do menu de navegação
 */
 nav {
   position: fixed;
-  top: 0;
+  top: 0px;
   background: rgba(0,0,0,.5);
-  padding: 30px;
   width: 100%;
 }
 
@@ -82,6 +81,7 @@ header h1 {
   font-size: 52px;
   text-shadow: 2px 2px 2px black;
   padding-top: 250px;
+  margin-top: 0;
 }
 
 header a {
@@ -121,3 +121,17 @@ section#trainee p {
 section#ruby h2 {
   color: #A72D3A;
 }
+
+/*
+=========================================
+Outras Formatações
+*/
+img#ai {
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg);} }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
