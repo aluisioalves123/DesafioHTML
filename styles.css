@@ -116,13 +116,13 @@ section h2 {
   color: #F16529;
   font-size: 35px;
   letter-spacing: 10px;
-
+  margin-top: 80px;
 }
 
 section#trainee p {
-  display: inline;
-  text-align: right;
+ text-align: right;
   font-size: 10pt;
+  
 }
 
 section#ruby h2 {
@@ -130,9 +130,14 @@ section#ruby h2 {
 }
 
 #computador {
- align: right; 
+  position: relative;
+  float: left;
+  margin-top: 80px;
 }
 
+#texto {
+ padding-left: 20px; 
+}
 
 /*
 =========================================
