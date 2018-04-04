@@ -34,13 +34,14 @@ nav {
 }
 
 nav img {
-  padding: 50px;
+  padding: 40px;
 }
 
 ul#navegacao {
   list-style: none;
   float: right;
-  padding-top: 35px;
+  padding: 40px;
+  margin: 0;
 }
 
 .menu a {
@@ -55,12 +56,12 @@ ul#navegacao {
 nav ul li { 
   display: inline;
   padding-right: 20px;
-  /*to no celular, mexe no padding só do logo
-  calma, vei. to tentando arrumar a distancia ali da parte direita do menu
-  to no celular entao sei la como ta, 
-  */
+  
 }
 
+#ultimo {
+ margin-right: 50px; 
+}
 /* 
 ==========================================
 Formatações do cabeçalho 
@@ -70,6 +71,7 @@ header {
   text-align: center;
   height: 100vh;
   background-size: cover;
+  background: rg
   
 }
 
