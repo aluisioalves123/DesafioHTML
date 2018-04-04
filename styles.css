@@ -23,6 +23,7 @@ a.ver-mais {
 }
 
 
+
 /* 
 ==========================================
 Formatações do menu de navegação 
@@ -153,7 +154,7 @@ text-align: justify;
 =========================================
 Outras Formatações
 */
-img#aaa {
+img#aa {
   -webkit-animation:spin 1s linear infinite;
   -moz-animation:spin 1s linear infinite;
   animation:spin 1s linear infinite;
