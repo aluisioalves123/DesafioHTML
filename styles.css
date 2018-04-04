@@ -1,19 +1,18 @@
+
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #0000;
+  background_color: skyblue;
+  margin: 0;
 }
 
-#logo_traineegti {
-   position: absolute;
-  
- 
-}
+#back
 
 header {
-  background_color: #0000;
+  background_color: skyblue;
 }
 
-#topo {
-  height: 100px;
-  background: #0000;
+#teste {
+ height: 125px;
+  background: black;
+  opacity: 0.5;
 }
