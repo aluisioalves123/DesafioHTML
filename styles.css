@@ -159,8 +159,8 @@ text-align: justify;
 FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
 
 .ferramentas {
+  margin: auto;
   border: 1px solid gray;
-  margin:0;
   width: 20%;
   float: left;
 
@@ -197,10 +197,12 @@ color: white;
  width: 50%; 
   padding-right: 10px;
 }
+
 /*
 =========================================
 Outras Formatações
 */
+
 img#aa {
   -webkit-animation:spin 1s linear infinite;
   -moz-animation:spin 1s linear infinite;
