@@ -1,5 +1,5 @@
 
-/*  */
+/* Formatações principais */
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -14,11 +14,12 @@ img.bg {
   height: auto;
 }
 
+/* Formatações do menu de navegação */
 nav {
   position: fixed;
   top: 0;
   background: rgba(0,0,0,.5);
-  padding: 50px;
+  padding: 30px;
   width: 100%;
 }
 
@@ -30,8 +31,8 @@ ul#navegacao {
   list-style: none;
 }
 
-.menu {
-  display: inline;
+.menu a {
+  display: inline-block;
   font-size: 18pt;
   color: grey;
 }
@@ -40,6 +41,7 @@ ul#navegacao {
   color: lime;
 }
 
+/* Formatações do cabeçalho */
 header {
   font-size: 40pt;
   background-image: url("https://cdn.glitch.com/ae3dc6e7-a56a-4b8d-a6c2-6380127472f4%2Fbanner.jpg?1522797817548");
@@ -53,17 +55,7 @@ header {
   padding: 5px;
 }
 
+/* Formatação dos tópicos */
 section {
 
-}
-
-footer {
-
-}
-
-
-
-
-#background {
-  
 }
