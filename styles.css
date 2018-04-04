@@ -116,7 +116,7 @@ section h2 {
   color: #F16529;
   font-size: 35px;
   letter-spacing: 10px;
-  text-align: center;
+
 }
 
 section#trainee p {
@@ -132,6 +132,7 @@ section#ruby h2 {
 #computador {
  align: right; 
 }
+
 
 /*
 =========================================
