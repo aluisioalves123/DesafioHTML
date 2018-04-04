@@ -71,7 +71,8 @@ header {
   text-align: center;
   height: 100vh;
   background-size: cover;
-  background: rg
+  background-color: black;
+  background-blend-mode: hard-light;
   
 }
 
