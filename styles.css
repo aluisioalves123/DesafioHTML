@@ -154,6 +154,17 @@ text-align: justify;
   margin-right: 70px;
 }
 
+/*
+========================================================
+FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
+
+.imagem {
+  background-color: #D2563F;
+  width: 20%;
+  text-align: center;
+  height: 220px;
+  color: white;
+}
 
 /*
 =========================================
