@@ -107,7 +107,7 @@ header a {
 
 /* 
 ==========================================
-Formatação dos tópicos 
+Formatação gerais dos tópicos 
 */
 article {
   background: white;
@@ -128,15 +128,6 @@ section h2 {
   
 }
 
-section#trainee p {
- text-align: right;
-  font-size: 10pt;
-}
-
-#trainee {
-  overflow: auto;
-}
-
 section#ruby h2 {
   color: #A72D3A;
 }
@@ -154,6 +145,19 @@ text-align: justify;
   margin-right: 70px;
 }
 
+/* 
+==========================================
+Formatação da seção trainee 
+*/
+section#trainee p {
+ text-align: right;
+  font-size: 10pt;
+}
+
+#trainee {
+  overflow: auto;
+}
+
 /*
 ========================================================
 FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
@@ -162,12 +166,11 @@ FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
   border: 1px solid gray;
   width: 20%;
   float: left;
-  margin: auto;
+  margin: 1%;
 }
 
 .imagem {
   background-color: #D2563F;
-  
   text-align: center;
   height: 220px;
   color: white;
@@ -178,7 +181,7 @@ FORMATAÇÃO DAS FERRAMENTAS E SUAS RESPECTIVAS SECTIONS*/
 .data-postagem {
   text-align: center;
   margin-bottom: 10px;
-  padding: 0;
+  border: 1px solid green;
 }
 
 .estudar_agora {
