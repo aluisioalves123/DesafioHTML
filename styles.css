@@ -18,8 +18,6 @@ a.ver-mais {
   padding: 5px 50px 5px;
   background: black;
   color: white;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
 a.ver-mais:hover {
@@ -121,7 +119,7 @@ article p {
 }
 
 section {
-  padding: 10px;
+  padding: 10px 50px 10px;
   text-align: center;
 }
 
@@ -137,7 +135,7 @@ section h2 {
   float: left;
   margin: 1%;
   box-shadow: 1px 1px 4px grey;
-  
+  margin-bottom: 35px;
 }
 
 .ferramentas a {
@@ -146,22 +144,30 @@ section h2 {
   background-color: #FB7C00;
   cursor: pointer;
   padding: 8px 10px 8px;
+  border: 1px solid #FB7C00;
   border-radius: 10px;
-  
 }
 
+.ferramentas a:hover {
+  background-color: white;
+  color: #FB7C00;
+}
 
 .miniatura {
+  display: block;
   background: url("");
   text-align: center;
   height: 220px;
   color: white;
+  padding-bottom: 30px;
 }
 
 .miniatura p {
+  font-size: 10pt;
   text-align: left;
   position: absolute;
-  padding: 10px;
+  padding: 10px 20px 10px;
+  letter-spacing: 1px;
 }
 
 .info-topico {
@@ -189,9 +195,7 @@ section#trainee {
 /*========================================================
 Formatação da seção HTML/CSS/JS
 */
-#html_css_js {
- margin-left: x;
-}
+
 
 div#mini-intro { background-color: #D65B43;}
 div#mini-lista-livros { background-color: #D65B43;}
