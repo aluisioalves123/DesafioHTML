@@ -125,10 +125,11 @@ section h2 {
 }
 
 .ferramentas {
-  width: 20%;
+  width:20%;
   float: left;
   margin: 1%;
   box-shadow: 1px 1px 4px grey;
+  text-align: ;
 }
 
 .ferramentas a {
@@ -140,13 +141,18 @@ section h2 {
   border-radius: 10px;
 }
 
+
 .miniatura {
-  background-color: #D2563F;
-  text-align: left;
+  background: url("");
+  text-align: center;
   height: 220px;
   color: white;
   margin-bottom: 15px;
   padding: 10px;
+}
+
+.miniatura p {
+  text-align: left;
 }
 
 .info-topico {
@@ -173,7 +179,14 @@ section#trainee {
 /*========================================================
 Formatação da seção HTML/CSS/JS
 */
+#html_css_js {
+ margin-left: x;
+}
 
+div#mini-intro { background-color: #D65B43;}
+div#mini-lista-livros { background-color: #D65B43;}
+div#mini-html-css { background-color: #6CC5EB;}
+div#mini-js { background-color: #F3CA4B;}
 
 /*========================================================
 Formatação da seção Ruby
