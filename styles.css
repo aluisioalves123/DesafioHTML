@@ -25,6 +25,10 @@ a.ver-mais {
  text-align: center; 
 }
 
+hr {
+  margin: 15px 20px 15px;
+  color: #F2F2F2;
+}
 
 
 /*==========================================
@@ -136,17 +140,13 @@ section h2 {
   border-radius: 10px;
 }
 
-.ferramentas img {
-  width: 50%;
-}
-
 .miniatura {
   background-color: #D2563F;
-  text-align: center;
+  text-align: left;
   height: 220px;
   color: white;
   margin-bottom: 15px;
-  padding: 0;
+  padding: 10px;
 }
 
 .info-topico {
