@@ -5,8 +5,7 @@ Formatações gerais
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background-color: #ffff;
-  
+  background-color: white;
 }
 
 a {
@@ -32,17 +31,18 @@ a.ver-mais {
 Formatações do menu de navegação 
 */
 nav {
-  position: fixed;
+  position: absolute;
   top: 0px;
   background: rgba(0,0,0,.6);
   width: 100%;
-  padding: 15px;
+  padding: 40px;
 }
 
 ul#navegacao {
   list-style: none;
   float: right;
   margin: 0;
+  padding-right: 150px;
 }
 
 .menu a {
@@ -57,12 +57,8 @@ ul#navegacao {
 nav ul li { 
   display: inline;
   padding-right: 20px;
-  
 }
 
-#ultimo {
- margin-right: 50px; 
-}
 /*==========================================
 Formatações do cabeçalho 
 */
@@ -124,7 +120,7 @@ section h2 {
   width: 20%;
   float: left;
   margin: 1%;
-  box-shadow: 1px 1px 4px blue;
+  box-shadow: 1px 1px 4px grey;
 }
 
 .ferramentas a {
