@@ -35,14 +35,17 @@ nav {
   top: 0px;
   background: rgba(0,0,0,.6);
   width: 100%;
-  padding: 40px;
 }
 
 ul#navegacao {
   list-style: none;
   float: right;
   margin: 0;
-  padding-right: 150px;
+  padding: 40px 100px 40px 0;
+}
+
+nav img {
+  padding: 40px;
 }
 
 .menu a {
@@ -56,7 +59,7 @@ ul#navegacao {
 
 nav ul li { 
   display: inline;
-  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /*==========================================
@@ -92,6 +95,7 @@ header a {
   border: 1px solid white;
   padding: 10px 30px 10px;
   font-size: 30px;
+  margin: 0 5px 0;
 }
 
 /*==========================================
