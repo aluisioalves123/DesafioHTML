@@ -143,10 +143,8 @@ section h2 {
 .ferramentas a {
   text-align: center;
   color: white;
-  background-color: #FB7C00;
   cursor: pointer;
   padding: 8px 10px 8px;
-  border: 1px solid #FB7C00;
   border-radius: 10px;
 }
 
@@ -156,6 +154,7 @@ section h2 {
 }
 
 .miniatura {
+  position: relative;
   background: url("");
   text-align: center;
   height: 220px;
@@ -165,9 +164,9 @@ section h2 {
 }
 
 .miniatura p {
+  position: absolute;
   font-size: 10pt;
   text-align: left;
-  position: absolute;
   padding: 10px 20px 10px;
   letter-spacing: 1px;
 }
@@ -208,6 +207,15 @@ section#trainee {
 Formatação da seção HTML/CSS/JS
 */
 
+section#web .ferramentas a {
+  text-align: center;
+  color: white;
+  background-color: #FB7C00;
+  cursor: pointer;
+  padding: 8px 10px 8px;
+  border: 1px solid #FB7C00;
+  border-radius: 10px;
+}
 
 div#mini-intro { background-color: #D65B43;}
 div#mini-lista-livros { background-color: #D65B43;}
@@ -220,6 +228,16 @@ Formatação da seção Ruby
 
 section#ruby h2 {
   color: #A72D3A;
+}
+
+section#ruby .ferramentas a {
+  text-align: center;
+  color: white;
+  background-color: #A72D3A;
+  cursor: pointer;
+  padding: 8px 10px 8px;
+  border: 1px solid #FB7C00;
+  border-radius: 10px;
 }
 
 div#mini-ruby { background-color: #B21300;}
