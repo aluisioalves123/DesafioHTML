@@ -111,7 +111,6 @@ header a {
 Formatação gerais das seções
 */
 
-
 article {
   background: white;
 }
@@ -133,7 +132,7 @@ section h2 {
 }
 
 .ferramentas {
-  width:23%;
+  width: 23%;
   float: left;
   margin: 1%;
   box-shadow: 1px 1px 4px grey;
@@ -146,11 +145,6 @@ section h2 {
   cursor: pointer;
   padding: 8px 10px 8px;
   border-radius: 10px;
-}
-
-.ferramentas a:hover {
-  background-color: white;
-  color: #FB7C00;
 }
 
 .miniatura {
@@ -169,10 +163,6 @@ section h2 {
   text-align: left;
   padding: 10px 20px 10px;
   letter-spacing: 1px;
-}
-
-.miniatura img {
-  
 }
 
 .info-topico {
@@ -208,13 +198,13 @@ Formatação da seção HTML/CSS/JS
 */
 
 section#web .ferramentas a {
-  text-align: center;
-  color: white;
   background-color: #FB7C00;
-  cursor: pointer;
-  padding: 8px 10px 8px;
   border: 1px solid #FB7C00;
-  border-radius: 10px;
+}
+
+section#web .ferramentas a:hover {
+  color: #FB7C00;
+  background-color: white;
 }
 
 div#mini-intro { background-color: #D65B43;}
@@ -231,13 +221,13 @@ section#ruby h2 {
 }
 
 section#ruby .ferramentas a {
-  text-align: center;
-  color: white;
+  border: 1px solid #A72D3A;
   background-color: #A72D3A;
-  cursor: pointer;
-  padding: 8px 10px 8px;
-  border: 1px solid #FB7C00;
-  border-radius: 10px;
+}
+
+section#ruby .ferramentas a:hover {
+  color: #A72D3A;
+  background-color: white;
 }
 
 div#mini-ruby { background-color: #B21300;}
