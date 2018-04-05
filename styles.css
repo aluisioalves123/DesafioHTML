@@ -74,6 +74,7 @@ header {
   background-color: rgba(10,10,10,.5);
   background-blend-mode: color-burn;
   margin-bottom: 70px;
+  overflow: hidden;
 }
 
 #header-img {
@@ -119,24 +120,8 @@ section h2 {
   
 }
 
-section#ruby h2 {
-  color: #A72D3A;
-}
-
-#computador {
-  float: left;
-  margin-top: 0px;
-  margin-right: 30px;
-}
-
-#texto {
-text-align: justify;
-  padding-bottom: 0px;
-  margin-right: 70px;
-}
-
 .ferramentas {
-  border: 4px ridge gray;
+  border: 4px solid gray;
   width: 20%;
   float: left;
   margin: 1%;
@@ -154,7 +139,7 @@ text-align: justify;
 }
 
 .ferramentas img {
- width: 50%; 
+  width: 50%; 
   padding-right: 10px;
 }
 
@@ -177,13 +162,17 @@ text-align: justify;
 /* ==========================================
 Formatação da seção trainee 
 */
-section#trainee p {
- text-align: right;
-  font-size: 10pt;
+section#trainee {
+  text-align: justify;
+  padding-bottom: 0px;
+  margin-right: 70px;
+  overflow: auto;
 }
 
-#trainee {
-  overflow: auto;
+#computador {
+  float: left;
+  margin-top: 0px;
+  margin-right: 30px;
 }
 
 /*========================================================
@@ -194,6 +183,10 @@ Formatação da seção HTML/CSS/JS
 /*========================================================
 Formatação da seção Ruby
 */
+
+section#ruby h2 {
+  color: #A72D3A;
+}
 
 
 /*=========================================
