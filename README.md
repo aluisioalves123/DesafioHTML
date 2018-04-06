@@ -1,5 +1,4 @@
 # Site do Aluísio
 
-Site feito pro curso do Aluísio
-
+SITE FEITO PARA O DESAFIO HTML DA GTI ENGENHARIA JR.
 
